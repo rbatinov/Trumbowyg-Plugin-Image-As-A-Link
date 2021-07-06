@@ -1,0 +1,199 @@
+<!-- The MIT License (MIT)
+
+Copyright (c) 2012-2016 Alexandre Demode (Alex-D)
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in
+all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
+THE SOFTWARE. -->
+
+<html>
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="trumbowyg/dist/ui/trumbowyg.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css">
+
+    <title>Image as a Link DEMO - Trumbowyg Plugin | Eng. Radoslav Batinov</title>
+
+    <link rel="apple-touch-icon" type="image/png" sizes="180x180"
+        href="https://radoslav-batinov.bss.design/assets/img/FavIcon/apple-icon-180x180.png?h=9a9bcead8c5e1371f77d453a13327a46">
+    <link rel="icon" type="image/png" sizes="16x16"
+        href="https://radoslav-batinov.bss.design/assets/img/FavIcon/favicon-16x16.png?h=829755c905fbed9b5e9f51e2342e39e1">
+    <link rel="icon" type="image/png" sizes="32x32"
+        href="https://radoslav-batinov.bss.design/assets/img/FavIcon/favicon-32x32.png?h=132ed8bab0095db64fb90ac480942a74">
+    <link rel="icon" type="image/png" sizes="180x180"
+        href="https://radoslav-batinov.bss.design/assets/img/FavIcon/apple-icon-180x180.png?h=9a9bcead8c5e1371f77d453a13327a46">
+    <link rel="icon" type="image/png" sizes="192x192"
+        href="https://radoslav-batinov.bss.design/assets/img/FavIcon/android-icon-192x192.png?h=36c1dbea7fc41e0a60be164bfa207ffe">
+</head>
+
+<body>
+    <div id="header">
+        <header>
+            <h1 class="center-align">Image as a Link DEMO - Trumbowyg Plugin</h1>
+        </header>
+    </div>
+
+    <div id="content">
+        <div class="split left">
+            <div class="centered">
+                <h2 class="center-align border-bottom">Trumbowyg Editor | Documentation and Live Demo</h2>
+                <h3 class="center-align">After reading the documentation you can scroll down to test it.</h3>
+                <h3 class="center-align">Click the image button in editor to open a modal box. In the modal box you can
+                    insert your
+                    image URL and the Link URL where you want the image to point to.</h3>
+                <br>
+                <h3 class="center-align">You can fill these properties:</h3>
+                <ol>
+                    <li>
+                        <h4>Image URL - This is the URL of an image. <span class="important">* REQUIRED *</span></h4>
+                    </li>
+                    <li>
+                        <h4>Image ALT - This is the ALT Text of an image. <span class="info">NOT REQUIRED</span></h4>
+                        <dl>
+                            <dt></dt>
+                            <dd>-- If input is empty -> Default text "Image as a Link" will be added. </dd>
+                        </dl>
+                    </li>
+                    <li>
+                        <h4>Link URL - This is the Link where you want the image to point to. <span class="important">*
+                                REQUIRED *</span></h4>
+                    </li>
+                    <li>
+                        <h4>Width - This is the width of an image. It can be in px or % (it should be filled px or %).
+                            <span class="info">NOT
+                                REQUIRED</span></h4>
+                        <dl>
+                            <dt></dt>
+                            <dd>-- If input is empty -> Defauld width of 100% will be added. </dd>
+                        </dl>
+                    </li>
+                    <li>
+                        <h4>Title - This is the title of an image. When you hover on the image it will show. <span
+                                class="info">NOT REQUIRED</span></h4>
+                        <dl>
+                            <dt></dt>
+                            <dd>-- If input is empty -> Default text "Click to open in new tab." will be added.</dd>
+                        </dl>
+                    </li>
+                </ol>
+
+                <br>
+                <h3 class="center-align">Example with <span class="important">REQUIRED</span> properties:</h3>
+
+                <div class="center-align">
+                    <img class="image-trumbowyg-options" src="img/image-as-a-link-required-options.png">
+                </div>
+                <br><br>
+
+                <h3 class="center-align">Example with <span class="important">ALL</span> properties:</h3>
+
+                <div class="center-align">
+                    <img class="image-trumbowyg-options" src="img/image-as-a-link-all-options.png">
+                </div>
+                <br><br>
+
+                <div class="center-align">
+
+                    <p>Here are some image URLs you can use:</p>
+                    <dl>
+                        <dt></dt>
+                        <dd>https://pixabay.com/photos/nepal-himalayan-travel-airphoto-1309205/</dd>
+                        <dd>https://cdn.pixabay.com/photo/2021/05/09/20/43/wood-anemone-6241998_960_720.jpg</dd>
+                        <dd>https://cdn.pixabay.com/photo/2017/07/17/13/34/abstract-2512412_960_720.jpg</dd>
+                        <dd>https://cdn.pixabay.com/photo/2021/06/09/18/50/ladybug-6324263_960_720.jpg</dd>
+                        <dd>https://cdn.pixabay.com/photo/2021/06/26/07/57/squirrel-6365603_960_720.jpg</dd>
+                    </dl>
+                    <p>Or you can use whatever you want.</p>
+                    <p>Enjoy</p>
+                </div>
+
+                <div id="imageAsALinkExample">
+
+                </div>
+
+                <br><br><br><br><br><br><br><br>
+            </div>
+        </div>
+
+        <div class="split right">
+            <div class="centered">
+                <h2 class="center-align border-bottom">Result will be loaded here</h2>
+                <h3 class="center-align">You can preview the image here. Just insert your image in the editor in the
+                    bottom of left pane.</h3>
+                <h3 style="display:none;" id="resultText" class="center-align"><span class="info">Click on the image to
+                        open the link you entered in new tab.</span></h3>
+                <div id="result"></div>
+
+                <br><br><br><br><br><br><br><br>
+            </div>
+        </div>
+    </div>
+
+    <div id="footer">
+        <footer class="border-top p-t-5">
+            Plugin Developed by <a href="https://radoslav-batinov.bss.design/index.html" target="_blank"
+                title="Click to open portfolio.">Eng. R. Batinov</a>
+            |
+            Original editor <a href="https://alex-d.github.io/Trumbowyg/" target="_blank"
+                title="Click to open in new tab.">Trumbowyg</a>
+        </footer>
+    </div>
+
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script>window.jQuery || document.write('<script src="js/vendor/jquery-3.3.1.min.js"><\/script>')</script>
+
+    <script src="trumbowyg/dist/trumbowyg.min.js"></script>
+    <script src="trumbowyg/plugins/imageAsALink/trumbowyg.imageAsALink.js"></script>
+
+
+    <script>
+        var trumbowyg_options = {
+            resetCss: true,
+            removeformatPasted: true,
+            autogrow: true,
+            defaultLinkTarget: '_blank',
+
+            btnsDef: {
+                imageAsALink: {
+                    ico: 'insertImage'
+                }
+            },
+
+            btns: [
+                ['viewHTML'],
+                ['imageAsALink']
+            ]
+
+        };
+
+        $('#imageAsALinkExample').trumbowyg(trumbowyg_options);
+
+        $('#imageAsALinkExample').trumbowyg().on('tbwchange', function () {
+            var result = $('#imageAsALinkExample').trumbowyg('html');
+
+            $('#result').html(result);
+
+            $('#resultText').show();
+        });
+    </script>
+
+</body>
+
+</html>

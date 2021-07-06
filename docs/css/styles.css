@@ -1,0 +1,141 @@
+body{
+    font-family: 'Open Sans', sans-serif;
+    background: #ff974a -webkit-gradient(linear,right top,left bottom,from(#f36e0c),to(#ffa740));
+}
+
+/* Layout Page */
+#header {
+    position: fixed;
+    left: 0;
+    right: 0;
+    height: 80px;
+}
+
+#content {
+    position: fixed;
+    top: 100px;
+    bottom: 40px;
+    left: 0;
+    right: 0;
+    overflow: auto;
+}
+
+#footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 40px;
+    background: #ff974a -webkit-gradient(linear,right top,left bottom,from(#f36e0c),to(#ffa740));
+    text-align:center;
+    color:white;
+}
+
+
+/* Split Screen Styles */
+.split {
+    height: 100%;
+    width: 50%;
+    position: fixed;
+    z-index: 1;
+    top: 100;
+    overflow-x: hidden;
+    padding-top: 20px;
+  }
+  
+  .left {
+    left: 0;
+    background: #ff974a -webkit-gradient(linear,right top,left bottom,from(#ff974a),to(#ffb864));
+  }
+  
+  .right {
+    right: 0;
+    background: #ffaa69 -webkit-gradient(linear,right top,left bottom,from(#ffaa6a),to(#ffcd8f));
+  }
+
+  .bottom{
+      bottom:0;
+  }
+  
+  .centered {
+    margin: 15px;
+  }
+
+  .center-align{
+      text-align: center;
+  }
+
+  /* Other */
+  .image-trumbowyg-options{
+    width:60%;
+  }
+
+  dd{
+      font-style:italic;
+  }
+
+  h2, h3, h4, dd, p{
+      color: white;
+  }
+
+  .important{
+      color:#be0000;
+      font-weight: bold;
+  }
+
+  .info{
+      color: #2d8400;
+      font-weight: bold;
+  }
+
+  .border-bottom{
+      padding-bottom:10px;
+      border-bottom: 1px solid #ffebdb;
+  }
+
+  .border-top{
+    border-top: 1px solid #ffebdb;
+  }
+
+  header{
+      color: white;
+      border-bottom: 1px solid #ffebdb;
+      padding-bottom:4px;
+  }
+
+  .p-t-5{
+    padding-top: 5px;
+  }
+
+  a{
+      color: white;
+  }
+
+  a:hover{
+      color: #883b00
+  }
+
+
+  /* scroller styles  */
+::-webkit-scrollbar {
+    width: 7px;
+  }
+  
+  ::-webkit-scrollbar-track {
+    background: #f1f1f1; 
+  }
+   
+  ::-webkit-scrollbar-thumb {
+    background: #ff7409; 
+  }
+  
+  ::-webkit-scrollbar-thumb:hover {
+    background: #ffe48b; 
+  }
+
+
+  /* inserted image style */
+  .ImageLink:hover{
+    opacity:0.7;
+    background:rgb(159 125 115 / 53%);
+}
