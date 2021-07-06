@@ -1,6 +1,6 @@
 # Trumbowyg Plugin - Image As A Link
-This is a simple plugin for the Trumbowyg editor. It can be used to insert image which acts like a link and points to somewhere.
-
+This is a simple plugin for the Trumbowyg editor. It can be used to insert image which acts like a link and points to somewhere.  
+[Plugin DEMO](https://rbatinov.github.io/Trumbowyg-Plugin-Image-As-A-Link/)
 
 ## Instalation
 1. Go to Trumbowyg official website: https://alex-d.github.io/Trumbowyg/documentation/
@@ -49,6 +49,10 @@ This is a simple plugin for the Trumbowyg editor. It can be used to insert image
 
 ## You can check DEMO of plugin on this link:
 https://rbatinov.github.io/Trumbowyg-Plugin-Image-As-A-Link/  
+  
+  
+![alt text](https://rbatinov.github.io/Trumbowyg-Plugin-Image-As-A-Link/img/index-page.png)    
+![alt text](https://rbatinov.github.io/Trumbowyg-Plugin-Image-As-A-Link/img/index-page-1.png)    
 
 ## License
 Plugin is under the [MIT License](https://github.com/rbatinov/Trumbowyg-Plugin-Image-As-A-Link/blob/main/LICENSE)  
